@@ -51,6 +51,7 @@
         <!-- It's a pity, but all source files should be listed here -->
         <source-file src="android/src/OpenIabCordovaPlugin.java" target-dir="src/org/onepf/openiab/cordova" />
         <source-file src="android/src/Serialization.java" target-dir="src/org/onepf/openiab/cordova" />
+        <framework src="com.squareup.okhttp3:okhttp:4.4.0"/>
 
         <!-- Libraries -->
         <source-file src="android/libs/OpenIAB.jar" target-dir="libs" />
